@@ -54,3 +54,31 @@ This project is built using the **MERN stack**: MongoDB, Express.js, React.js, a
 ```bash
 git clone https://github.com/mpkumar04/MERN-Employee-Management-System.git
 cd MERN-Employee-Management-System
+
+
+### 2. Create a .env file inside the backend folder:
+MONGO_URI=your_mongodb_connection_string
+PORT=8000
+
+
+### 3. Backend
+cd todo-backend
+npm install
+node serves.js
+
+
+### 4. Frontend
+cd todo-frontend
+npm install
+npm start
+
+
+### 🔮 Future Enhancements
+
+- Authentication & role-based access control
+- Export reports (PDF/Excel)
+- Real-time notifications for attendance
+- Mobile responsive design
+
+
+

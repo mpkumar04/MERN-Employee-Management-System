@@ -40,6 +40,14 @@ This project is built using the **MERN stack**: MongoDB, Express.js, React.js, a
 | React.js       | Node.js & Express.js | MongoDB   | Recharts   |
 
 ---
+## 🔮 Future Enhancements
+
+- Authentication & role-based access control
+- Export reports (PDF/Excel)
+- Real-time notifications for attendance
+- Mobile responsive design
+
+
 
 ## 📦 Project Setup
 
@@ -73,12 +81,6 @@ npm install
 npm start
 
 
-## 🔮 Future Enhancements
-
-- Authentication & role-based access control
-- Export reports (PDF/Excel)
-- Real-time notifications for attendance
-- Mobile responsive design
 
 
 

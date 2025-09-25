@@ -45,7 +45,7 @@ const attendanceSchema = new mongoose.Schema({
 attendanceSchema.index({ employeeId: 1, date: 1 }, { unique: true });
 const attendanceModel = mongoose.model("Attendance", attendanceSchema);
 
-//emp crud
+//emp crud Operation
 
 // creat a new employee
 app.post("/todos", async (req, res) => {

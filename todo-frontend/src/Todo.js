@@ -66,7 +66,7 @@ export default function Todo() {
   const formatDept = (dept) =>
     dept ? dept.charAt(0).toUpperCase() + dept.slice(1).toLowerCase() : "Unassigned";
 
-  // CREATE
+  // Create
   const handleSubmit = () => {
     setError("");
     if (!Name || !Email || !Phone || !Address || !Salary) {
